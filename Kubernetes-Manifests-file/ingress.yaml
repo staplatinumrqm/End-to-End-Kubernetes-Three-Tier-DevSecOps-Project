@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: ovidiu-pidaras.com
+    - host: backend.ovidiu-pidaras.com
       http:
         paths:
           - path: /api
